@@ -1,0 +1,10 @@
+/* pages/Template/Template.wxss */
+.bgtext{
+  width:99%;
+  font-size:70rpx;
+  color:#F7F7F7;
+  position: absolute;
+  top:0px;
+  left:1%;
+  z-index: -1;
+}

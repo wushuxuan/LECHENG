@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/personal/personal",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/Template/Template"
+  ],
+  "window":{
+    "backgroundTextStyle":"#000",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LECHENG",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#828282",
+    "selectedColor": "#000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "src/images/tabBar/unhome.png",
+      "selectedIconPath": "src/images/tabBar/home.png"
+    },{
+      "pagePath": "pages/list/list",
+      "text": "推荐",
+      "iconPath": "src/images/tabBar/unlist.png",
+      "selectedIconPath": "src/images/tabBar/list.png"
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心",
+      "iconPath": "src/images/tabBar/unall.png",
+      "selectedIconPath": "src/images/tabBar/all.png"
+    }]
+  }
+}

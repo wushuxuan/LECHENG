@@ -1,0 +1,91 @@
+/* pages/Template/Template.wxss */
+@import 'Template.wxss';
+.index_header {
+  width:100%;
+}
+.index_header .header-title{
+  width:90%;
+  padding-left:5%;
+}
+.index_header .header-title>view:nth-child(1){
+  padding-top:60rpx;
+  font-size:45rpx;
+  font-weight: bold;
+}
+.index_header .header-title>view:nth-child(2){
+  padding-top:10rpx;
+  font-size:35rpx;
+}
+
+/*搜索*/
+.index-search{
+  width:90%; padding-left:8%;height:40px;
+  margin-top:5%;position: relative;
+}
+.index-search button{
+  width:10%;display: inline-block;height:40px;line-height: 40px;padding-left:0px;
+  font-size:50rpx;text-align: left;position: absolute;top:0px;background:none;
+}
+.index-search button::after{
+  border:none;
+}
+.index-search button text{
+  width:100%;display: inline-block;
+  height:40px;line-height:40px;
+}
+.index-search input{
+  width:72%;display: inline-block;
+  font-size:35rpx;margin-left:5%;
+  height:40px;line-height: 40px;border-radius: 15px;
+  border:1px solid #eee;padding-left:3%;
+  position: absolute;top:0px;left:13%;
+}
+
+/*轮播*/
+.index-swiper{
+  width:100%;
+  height:180px;margin-top:5%;
+}
+.index-swiper swiper{
+  width:100%;
+  height:180px;
+}
+.index-swiper swiper image{
+  width:100%;height:100%;
+}
+/*内容*/
+.index-content{
+  width:100%;margin-top:5%;
+}
+.index-content .title{
+  width:100%;
+  color:#444;
+  font-size:35rpx;
+}
+.index-content .title text{
+  color:#ffe400;
+}
+.index-content .flexs{
+  width:100%;
+  margin-top:5%;
+}
+.index-content .flexs .flex-wrap{
+  width:50%;
+  display: inline-block;
+}
+.index-content .flexs .flex-wrap .flex-bg{
+  width:100%;
+  text-align: center;
+  position: relative;
+}
+.index-content .flexs .flex-wrap .flex-bg image{
+  width:90%;
+  display: inline-block;
+}
+.index-content .flexs .flex-wrap .flex-bg view{
+  position: absolute;
+  top:40%;
+  width:100%;
+  text-align: center;
+  color:#fff;
+}

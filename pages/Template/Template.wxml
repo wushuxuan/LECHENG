@@ -1,0 +1,4 @@
+<!--pages/Template/Template.wxml-->
+<template name="bgtext">
+  <view class="bgtext">{{bgtext}}</view>
+</template>

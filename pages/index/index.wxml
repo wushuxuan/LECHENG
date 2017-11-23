@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<import src="../Template/Template.wxml"/>
+<view class="container">
+  <view class="index_header">
+    <template is="bgtext" data="{{bgtext:'COMMING'}}"/>
+    <view class="header-title">
+      <view>新房源来啦！</view>
+      <view>和我们一起，遇见旅途中的家</view>
+    </view>
+  </view>
+  <!--搜索-->
+  <view class="index-search">
+    <form bindsubmit='IndexSearch'>
+      <button form-type='submit'><text class="iconfont icon-search"></text></button><input type="text" name="search" placeholder='搜索目的地'></input>
+    </form>
+  </view>
+
+  <!--轮播图-->
+  <view class="index-swiper">
+    <swiper indicator-dots="true" autoplay="true" circular="true" indicator-active-color="#ffe400">
+      <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+        <swiper-item><image mode="widthFix" src="{{item}}"></image></swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <!--地域划分-->
+  <view class="index-content">
+    <view class="title"><text class="iconfont icon-left"></text>地域划分</view>
+    <view class="flexs">
+      <view wx:for="{{citylist}}" wx:key="{{citylist}}" class="flex-wrap">
+        <view class='flex-bg'>
+          <image mode="widthFix" src="{{item.image}}"></image>
+          <view>{{item.cityname}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+ </view>

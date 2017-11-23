@@ -1,0 +1,27 @@
+/* pages/personal/personal.wxss */
+.personal-header{
+  width:100%;
+}
+.header{
+  width:100%;text-align: center;
+}
+.personal-header .header .header-image{
+  width:55px;height:55px;padding:1%;box-shadow: 0px 0px 5px #aaa;
+  margin:8% auto 3%;border-radius: 50%;line-height: 55px;font-size:35rpx;
+}
+.personal-header .header image{
+  width:55px;height:55px;border-radius: 50%;
+  display: inline-block;line-height: 55px;
+}
+
+/*列表*/
+.flexs{
+  width:96%;
+  margin:10% auto 5%;
+}
+.flexs .flex-wrap{
+  width:33.33%;display: inline-block;text-align: center;font-size:35rpx;
+}
+.flexs .flex-wrap image{
+  width:20%;
+}

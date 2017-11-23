@@ -1,0 +1,21 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <view class="list-content">
+    <view wx:for="{{homelist}}" wx:key="{{homelist}}" class="flexs">
+      <view class="flex-wrap">
+        <view class="flex-left">
+          <view class="flex-top">
+            <image mode="widthFix" src="{{item.headerimg}}"></image>
+            <view class="top-right">
+              <view>{{item.name}}</view>
+              <view>{{item.address}}</view>
+            </view>
+          </view>
+          <view class="flex-content">{{item.introducce}}</view>
+          <navigator class="flex-bottom">SHOW MORE</navigator>
+        </view>
+        <view class="flex-right"><image mode="widthFix" src="{{item.image}}"></image></view>
+      </view>
+    </view>
+  </view>
+</view>

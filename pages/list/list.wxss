@@ -1,0 +1,55 @@
+/* pages/list/list.wxss */
+page{
+  background:#eee;
+}
+.list-content{
+    width:100%;
+}
+.list-content .flexs{
+  width:96%;height:200px;
+  margin:0 auto 5%;
+}
+.list-content .flexs:nth-child(1){
+  margin-top:3%;
+}
+.list-content .flexs .flex-wrap{
+  width:100%;position: relative;
+}
+.list-content .flexs .flex-wrap .flex-left{
+  width:50%;padding:2%;z-index: 11;margin-top:8%;
+  position: absolute;left:0%;border-radius: 10px;
+  background:rgba(255,255, 255, 0.8);
+}
+.list-content .flexs .flex-wrap .flex-left .flex-top{
+  width:100%;display: flex;  flex-flow: row;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-top image{
+  width:30%;  border-radius: 50%;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-top .top-right{
+  width:66%;  padding-left:4%;color:#707070;
+  font-size:30rpx;padding-top:3%;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-top .top-right>view:nth-child(1){
+  font-size:35rpx;color:#000;  font-weight:bold;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-top .top-right>view{
+  height:25px;
+  line-height: 25px;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-content{
+  width:100%;
+  font-size:30rpx;
+  margin:8% 0;
+}
+.list-content .flexs .flex-wrap .flex-left .flex-bottom{
+  width:70%;font-size: 30rpx;font-weight: bold;
+  background:#FFE80F;color:#fff;border-radius: 17.5px;
+  height:35px;line-height: 35px;text-align: center;
+}
+.list-content .flexs .flex-wrap .flex-right{
+  width:80%;  position: absolute;top:0%;right:0%;z-index: 10
+}
+.list-content .flexs .flex-wrap .flex-right image{
+  width:100%;border-radius: 10px;
+}

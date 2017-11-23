@@ -1,0 +1,41 @@
+<!--pages/personal/personal.wxml-->
+<import src="../Template/Template.wxml"/>
+<view class="container">
+  <view class="personal-header">
+    <template is="bgtext" data="{{bgtext:'PERSONAL'}}"/>
+    <view class="header">
+      <view class="header-image"><image mode="widthFix" src="{{avatarUrl}}"></image></view>
+      <view>{{nickName}}</view>
+    </view>
+  </view>
+
+  <!--列表-->
+  <view class="flexs">
+    <view class='flex-wrap'>
+      <image mode="widthFix" src="../../src/images/personal/collect.png"></image>
+      <view>收藏</view>
+    </view>
+    <view class='flex-wrap'>
+      <image mode="widthFix" src="../../src/images/personal/appointment.png"></image>
+      <view>约看</view>
+    </view>
+    <view class='flex-wrap'>
+      <image mode="widthFix" src="../../src/images/personal/record.png"></image>
+      <view>记录</view>
+    </view>
+  </view>
+
+
+  <!--热门推荐-->
+  <view class="index-content">
+    <view class="title"><text class="iconfont icon-left"></text>热门推荐</view>
+    <view class="flexs">
+      <view wx:for="{{citylist}}" wx:key="{{citylist}}" class="flex-wrap">
+        <view class='flex-bg'>
+          <image mode="widthFix" src="{{item.image}}"></image>
+          <view>{{item.cityname}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
