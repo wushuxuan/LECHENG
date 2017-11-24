@@ -5,10 +5,10 @@ Page({
    */
   data: {
     imgUrls:[
-      '../../src/images/01.png', '../../src/images/02.jpg','../../src/images/03.jpg',
+      'https://github.com/wushuxuan/LECHENG/blob/master/src/images/01.png?raw=true', 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/02.jpg?raw=true','https://github.com/wushuxuan/LECHENG/blob/master/src/images/03.jpg?raw=true',
     ],
-    citylist:[{ image: '../../src/images/05.jpg' , cityname: '北京'},
-              { image: '../../src/images/06.png', cityname: '上海' }]
+    citylist: [{ image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/05.jpg?raw=true' , cityname: '北京',url:'../homes/homes'},
+      { image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/06.png?raw=true', cityname: '上海' }]
   },
   /**搜索框提交form */
   IndexSearch:function(e){

@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'iconfont';  /* project id 484502 */
-  src: url('//at.alicdn.com/t/font_484502_39ze82luzlkawcdi.eot');
-  src: url('//at.alicdn.com/t/font_484502_39ze82luzlkawcdi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_484502_39ze82luzlkawcdi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_484502_39ze82luzlkawcdi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_484502_39ze82luzlkawcdi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_484502_ngz7jez1b4holxr.eot');
+  src: url('//at.alicdn.com/t/font_484502_ngz7jez1b4holxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_484502_ngz7jez1b4holxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_484502_ngz7jez1b4holxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_484502_ngz7jez1b4holxr.svg#iconfont') format('svg');
 }
 
 
@@ -29,3 +29,4 @@
 }
 .icon-search:before { content: "\e60b"; }/*搜索*/
 .icon-left:before { content: "\e601"; }/*分割*/
+.icon-collect:before { content: "\e60a"; }/*分割*/

@@ -28,12 +28,12 @@
   <view class="index-content">
     <view class="title"><text class="iconfont icon-left"></text>地域划分</view>
     <view class="flexs">
-      <view wx:for="{{citylist}}" wx:key="{{citylist}}" class="flex-wrap">
+      <navigator wx:for="{{citylist}}" wx:key="{{citylist}}" class="flex-wrap" url="{{item.url}}">
         <view class='flex-bg'>
           <image mode="widthFix" src="{{item.image}}"></image>
           <view>{{item.cityname}}</view>
         </view>
-      </view>
+      </navigator>
     </view>
   </view>
  </view>

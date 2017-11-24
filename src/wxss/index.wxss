@@ -89,3 +89,18 @@
   text-align: center;
   color:#fff;
 }
+
+
+
+/*自定义Toast提示框*/
+.showToast{
+  width:30%;background:rgba(0, 0, 0, 0.7);padding-bottom:5%;opacity: 1;
+  position: absolute;z-index: 100;top:20%;left:35%;border-radius: 10px;transition: all 0.5s
+}
+.showToast>view{
+  width:100%;text-align: center;height:25px;line-height: 25px;
+  color:#fff;font-size:35rpx;
+}
+.showToast>view:nth-child(1){
+  font-size:80rpx;color:red;height:70px;line-height: 70px;
+}

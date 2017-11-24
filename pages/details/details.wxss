@@ -1,0 +1,9 @@
+/* pages/details/details.wxss */
+swiper{
+  width:100%;
+  height:65vh;
+}
+swiper image{
+  width:100%;
+  height:100%;
+}

@@ -1,8 +1,11 @@
 {
   "pages":[
-    "pages/personal/personal",
+    "pages/details/details",
+    "pages/homes/homes",
     "pages/index/index",
+    "pages/demo/demo",
     "pages/list/list",
+    "pages/personal/personal",
     "pages/Template/Template"
   ],
   "window":{

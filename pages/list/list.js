@@ -5,9 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    homelist: [{ image: '../../src/images/homelist/homeimg.png', headerimg: '../../src/images/homelist/userimg2.jpg', name: '刘婷婷', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；',},
-      { image: '../../src/images/homelist/homeimg.png', headerimg: '../../src/images/homelist/uaerimg.jpg', name: '徐润', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；', },
-      { image: '../../src/images/homelist/homeimg.png', headerimg: '../../src/images/homelist/uaerimg.jpg', name: '张媛', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；', }]
+    homelist: [{ image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/homeimg.png?raw=true', headerimg: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/userimg2.jpg?raw=true', name: '刘婷婷', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；',},
+      { image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/homeimg.png?raw=true', headerimg: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/uaerimg.jpg?raw=true', name: '徐润', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；', },
+      { image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/homeimg.png?raw=true', headerimg: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/homelist/uaerimg.jpg?raw=true', name: '张媛', address: '上海三林城林雅苑', introducce: '城林雅苑，一室一厅，家具干净整洁；', }]
   },
 
   /**

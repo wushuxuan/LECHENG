@@ -1,0 +1,39 @@
+<!--pages/homes/homes.wxml-->
+<view class="container">
+  <view class="homes">
+    <view class="homes-background">
+      <view class="homes-header">
+        <view>不想住的千篇一律</view>
+        <view>北京</view>
+      </view>
+      <movable-area style="width:90%;height:65vh;positon:absolute;top:5%;left:5%;">
+        <movable-view bindtap="movable" direction="all" bindtouchmove="MoveView"  inertia="true" class="homes-flexs {{hidden?'':''}}" wx:for="{{homeslist}}" wx:key="{{homeslist}}" style="width:100%;height:63vh;{{hidden?'opacity:0;':''}}" x="{{x}}" y="{{y}}" out-of-bounds="true">
+          <view class="flex-header">{{item.name}}</view>
+          <view class="flex-content"><image mode="widthFix" src="{{item.imageurl}}"></image></view>
+          <view class="flex-bottom">
+            <view class="flex-left">
+              <view class="left-top">{{item.describe}}</view>
+              <view class="left-bottom">{{item.address}}</view>
+            </view>
+            <view class="flex-right">{{item.money}}</view>
+          </view>
+          <view class="flex-footer">
+            <view class="footer-wrap">离地铁近</view>
+            <view class="footer-wrap">家电齐全</view>
+            <view class="footer-wrap">首次出租</view>
+          </view>
+        </movable-view>
+      </movable-area>
+
+      <button class="homes-footer">点击加载更多房源</button>
+    </view>
+  </view>
+</view>
+
+
+
+<!--收藏成功-->
+<view class="showToast" style="{{showToast?'':'opacity:0;'}}">
+  <view class="iconfont icon-collect"></view>
+  <view>收藏成功</view>
+</view>

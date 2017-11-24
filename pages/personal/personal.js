@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    citylist: [{ image: '../../src/images/recommend/recommend02.jpg', cityname: '海洋系列' },
-      { image: '../../src/images/recommend/recommend01.png', cityname: '清新系列' }]
+    citylist: [{ image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/recommend/recommend02.jpg?raw=true', cityname: '海洋系列' },
+      { image: 'https://github.com/wushuxuan/LECHENG/blob/master/src/images/recommend/recommend01.png?raw=true', cityname: '清新系列' }]
   },
 
   /**
